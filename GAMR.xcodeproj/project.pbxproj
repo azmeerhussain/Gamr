@@ -21,6 +21,11 @@
 		A00560CA2378DCA0004842B1 /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560C92378DCA0004842B1 /* EventController.swift */; };
 		A00560CE2378DD35004842B1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560CD2378DD35004842B1 /* User.swift */; };
 		A00560D02378DF07004842B1 /* EventRecieptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560CF2378DF07004842B1 /* EventRecieptVC.swift */; };
+		A00560D22378E009004842B1 /* AppManualVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560D12378E009004842B1 /* AppManualVC.swift */; };
+		A00560D42378E039004842B1 /* EventMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560D32378E039004842B1 /* EventMapVC.swift */; };
+		A00560D62378E052004842B1 /* MyEventsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560D52378E052004842B1 /* MyEventsVC.swift */; };
+		A00560D82378E062004842B1 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560D72378E062004842B1 /* AccountVC.swift */; };
+		A00560DA2378E06F004842B1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560D92378E06F004842B1 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +45,11 @@
 		A00560C92378DCA0004842B1 /* EventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
 		A00560CD2378DD35004842B1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A00560CF2378DF07004842B1 /* EventRecieptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRecieptVC.swift; sourceTree = "<group>"; };
+		A00560D12378E009004842B1 /* AppManualVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManualVC.swift; sourceTree = "<group>"; };
+		A00560D32378E039004842B1 /* EventMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapVC.swift; sourceTree = "<group>"; };
+		A00560D52378E052004842B1 /* MyEventsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyEventsVC.swift; sourceTree = "<group>"; };
+		A00560D72378E062004842B1 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		A00560D92378E06F004842B1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,11 @@
 			children = (
 				A00560AD2378D7C8004842B1 /* ViewController.swift */,
 				A00560CF2378DF07004842B1 /* EventRecieptVC.swift */,
+				A00560D12378E009004842B1 /* AppManualVC.swift */,
+				A00560D32378E039004842B1 /* EventMapVC.swift */,
+				A00560D52378E052004842B1 /* MyEventsVC.swift */,
+				A00560D72378E062004842B1 /* AccountVC.swift */,
+				A00560D92378E06F004842B1 /* LoginVC.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -187,13 +202,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A00560D02378DF07004842B1 /* EventRecieptVC.swift in Sources */,
+				A00560D62378E052004842B1 /* MyEventsVC.swift in Sources */,
 				A00560B42378D7C8004842B1 /* GAMR.xcdatamodeld in Sources */,
 				A00560AE2378D7C8004842B1 /* ViewController.swift in Sources */,
 				0486B3342378DF9800823957 /* UserController.swift in Sources */,
 				A00560AA2378D7C8004842B1 /* AppDelegate.swift in Sources */,
 				A00560C62378DBBB004842B1 /* Login.swift in Sources */,
+				A00560D42378E039004842B1 /* EventMapVC.swift in Sources */,
 				A00560AC2378D7C8004842B1 /* SceneDelegate.swift in Sources */,
 				A00560C82378DC87004842B1 /* Event.swift in Sources */,
+				A00560DA2378E06F004842B1 /* LoginVC.swift in Sources */,
+				A00560D22378E009004842B1 /* AppManualVC.swift in Sources */,
+				A00560D82378E062004842B1 /* AccountVC.swift in Sources */,
 				A00560CA2378DCA0004842B1 /* EventController.swift in Sources */,
 				A00560CE2378DD35004842B1 /* User.swift in Sources */,
 				A00560C42378DBA0004842B1 /* LoginController.swift in Sources */,
