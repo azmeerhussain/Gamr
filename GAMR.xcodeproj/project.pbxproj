@@ -19,6 +19,7 @@
 		A00560C82378DC87004842B1 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560C72378DC87004842B1 /* Event.swift */; };
 		A00560CA2378DCA0004842B1 /* EventController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560C92378DCA0004842B1 /* EventController.swift */; };
 		A00560CE2378DD35004842B1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560CD2378DD35004842B1 /* User.swift */; };
+		A00560D02378DF07004842B1 /* EventRecieptVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00560CF2378DF07004842B1 /* EventRecieptVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A00560C72378DC87004842B1 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A00560C92378DCA0004842B1 /* EventController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventController.swift; sourceTree = "<group>"; };
 		A00560CD2378DD35004842B1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A00560CF2378DF07004842B1 /* EventRecieptVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRecieptVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A00560AD2378D7C8004842B1 /* ViewController.swift */,
+				A00560CF2378DF07004842B1 /* EventRecieptVC.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A00560D02378DF07004842B1 /* EventRecieptVC.swift in Sources */,
 				A00560B42378D7C8004842B1 /* GAMR.xcdatamodeld in Sources */,
 				A00560AE2378D7C8004842B1 /* ViewController.swift in Sources */,
 				A00560AA2378D7C8004842B1 /* AppDelegate.swift in Sources */,
